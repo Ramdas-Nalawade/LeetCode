@@ -46,7 +46,7 @@ class Solution {
             int[] left = sortArray(Arrays.copyOfRange(nums, 0, midIndex));
             int[] right = sortArray(Arrays.copyOfRange(nums, midIndex, nums.length));
             
-            return merge(right, left);
+            return merge(left, right);
         }
     
 }
