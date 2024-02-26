@@ -23,6 +23,7 @@ class Solution {
     {
         if(left > right)
             return null;
+        
         int mid = (left+right)/2;
         
         TreeNode root = new TreeNode(nums[mid]);
