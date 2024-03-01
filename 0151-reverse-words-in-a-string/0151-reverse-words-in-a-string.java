@@ -13,7 +13,7 @@ class Solution {
         String val = arr2.trim();
         for(int i = 0; i < val.length(); i++)
         {
-            val = val.replace("  ", " ").replace("   ", " ").replace("    ", " ");
+            val = val.replace("  ", " ");
         }
         return val;
     }
