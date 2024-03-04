@@ -17,7 +17,7 @@ class Solution {
                 else
                 {
                     sb.append("al");
-                    i = i + 3;
+                    i = i + 2;
                 }
             }
         }
