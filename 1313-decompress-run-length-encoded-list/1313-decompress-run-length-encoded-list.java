@@ -10,8 +10,6 @@ class Solution {
                 list.add(nums[i+1]);
             }
         }
-        int[] arr = list.stream().mapToInt(i-> i).toArray();
-        
-        return arr;
+        return list.stream().mapToInt(i-> i).toArray();
     }
 }
