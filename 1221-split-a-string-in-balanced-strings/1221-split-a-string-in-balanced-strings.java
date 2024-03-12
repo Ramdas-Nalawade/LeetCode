@@ -1,17 +1,18 @@
 class Solution {
     public int balancedStringSplit(String s) 
     {
+        int max = 0;
         int count = 0;
-        int ch = 0;
-        for(int i = 0; i < s.length(); i++)
+
+        for(char ch: s.toCharArray())
         {
-            if(s.charAt(i) == 'R')
-                ch++;
-            else
-                ch--;
-            if(ch == 0)
+            if(ch == 'R')
                 count++;
-        }
-        return count;
+            if(ch == 'L')
+                count--;
+            if(count == 0)
+                max++;
+        }        
+        return max;
     }
 }
