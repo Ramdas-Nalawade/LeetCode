@@ -6,11 +6,9 @@ class Solution {
         {
             if(ch == '.')
                 sb.append("[.]");
-                
             else
                 sb.append(ch);
         }
-        
         return sb.toString();
     }
 }
