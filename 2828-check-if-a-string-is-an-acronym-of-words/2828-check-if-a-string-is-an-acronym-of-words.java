@@ -8,8 +8,6 @@ class Solution {
         {
             str += st.charAt(i);
         }        
-        if(str.equals(s))
-            return true;
-        return false;
+        return str.equals(s);
     }
 }
