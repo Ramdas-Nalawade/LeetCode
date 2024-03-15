@@ -8,8 +8,6 @@ class Solution {
             int count = 0;
             for(int j = 0; j < nums.length; j++)
             {
-                if(i == j)
-                    continue;
                 if(nums[j] < nums[i])
                     nums2[i] = ++count;
             }
