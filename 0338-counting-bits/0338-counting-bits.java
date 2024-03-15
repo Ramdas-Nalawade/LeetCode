@@ -5,7 +5,7 @@ class Solution {
 
         for(int i = 1; i <= n; i++)
         {
-            arr[i] = Integer.bitCount(i);
+            arr[i] = arr[i >> 1] + (i & 1);
         }        
         return arr;
     }
