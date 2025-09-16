@@ -11,6 +11,7 @@ class Solution {
                 {
                     ans[0] = i;
                     ans[1] = j;
+                    break;
                 }
             }
         }
