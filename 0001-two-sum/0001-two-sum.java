@@ -14,6 +14,8 @@ class Solution {
                     break;
                 }
             }
+            if(ans[0] != 0)
+                break;
         }
         return ans;
     }
