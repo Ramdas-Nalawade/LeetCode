@@ -15,7 +15,7 @@ class Solution {
                 i++;
             else
             {
-                list.add(nums2[j]);
+                list.add(nums1[i]);
                 i++;
                 j++;
             }
