@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0001-two-sum) |
+| [0014-longest-common-prefix](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0014-longest-common-prefix) |
 | [0217-contains-duplicate](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0217-contains-duplicate) |
 | [0283-move-zeroes](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0283-move-zeroes) |
 | [0349-intersection-of-two-arrays](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0349-intersection-of-two-arrays) |
@@ -20,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0020-valid-parentheses) |
 | [0125-valid-palindrome](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0125-valid-palindrome) |
 | [0344-reverse-string](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0344-reverse-string) |
@@ -85,4 +87,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
