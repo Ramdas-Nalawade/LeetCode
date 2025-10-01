@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0001-two-sum) |
 | [0014-longest-common-prefix](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0014-longest-common-prefix) |
 | [0027-remove-element](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0027-remove-element) |
+| [0042-trapping-rain-water](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0217-contains-duplicate) |
@@ -37,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0020-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0232-implement-queue-using-stacks](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0232-implement-queue-using-stacks) |
 ## Linked List
 |  |
@@ -60,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0027-remove-element](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0027-remove-element) |
+| [0042-trapping-rain-water](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0125-valid-palindrome](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0283-move-zeroes](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0283-move-zeroes) |
@@ -112,5 +115,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0392-is-subsequence](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0392-is-subsequence) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
