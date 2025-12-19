@@ -1,25 +1,15 @@
 class Solution {
-    public boolean isAnagram(String s, String t) {
-        if (s.length() != t.length()) return false;
+    public boolean isAnagram(String s, String t) 
+    {
+        char[] sChar = s.toCharArray();
+        char[] tChar = t.toCharArray();
 
-        Map<Integer, Long> sMap = s.chars()
-                .boxed()
-                .collect(Collectors.groupingBy(
-                        c -> c,
-                        Collectors.counting()
-                ));
+        Arrays.sort(sChar);
+        Arrays.sort(tChar);
 
-        Map<Integer, Long> tMap = t.chars()
-                .boxed()
-                .collect(Collectors.groupingBy(
-                        c -> c,
-                        Collectors.counting()
-                ));
-
-        return sMap.equals(tMap);
+        return Arrays.equals(sChar, tChar);
     }
 }
-
 
 //Using Map
 /*
@@ -48,3 +38,27 @@ class Solution {
     }
 }
 */
+
+/* Using Stream API
+class Solution {
+    public boolean isAnagram(String s, String t) {
+        if (s.length() != t.length()) return false;
+
+        Map<Integer, Long> sMap = s.chars()
+                .boxed()
+                .collect(Collectors.groupingBy(
+                        c -> c,
+                        Collectors.counting()
+                ));
+
+        Map<Integer, Long> tMap = t.chars()
+                .boxed()
+                .collect(Collectors.groupingBy(
+                        c -> c,
+                        Collectors.counting()
+                ));
+
+        return sMap.equals(tMap);
+    }
+}
+ */
