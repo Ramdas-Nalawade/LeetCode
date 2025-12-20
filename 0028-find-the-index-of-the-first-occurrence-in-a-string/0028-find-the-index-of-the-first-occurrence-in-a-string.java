@@ -1,13 +1,21 @@
 class Solution {
     public int strStr(String haystack, String needle) 
     {
-        int j = needle.length();
+        if(!haystack.contains(needle) || needle.length() > haystack.length())
+            return -1;
 
-        for(int i = 0; j <= haystack.length(); i++, j++)
+        for(int i = 0; i <= haystack.length() - needle.length(); i++)
         {
-            if(needle.equals(haystack.substring(i, j)))
+            int j = 0;
+
+            while(j < needle.length() && haystack.charAt(i+j) == needle.charAt(j))
+            {
+                j++;
+            }
+
+            if(j == needle.length())
                 return i;
-        }     
+        }
         return -1;
     }
-}
+} 
