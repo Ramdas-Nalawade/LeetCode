@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0242-valid-anagram) |
 | [0349-intersection-of-two-arrays](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0383-ransom-note](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 ## String
 |  |
@@ -35,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0344-reverse-string) |
+| [0383-ransom-note](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 | [0392-is-subsequence](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0392-is-subsequence) |
 | [0709-to-lower-case](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0709-to-lower-case) |
@@ -61,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0169-majority-element) |
+| [0383-ransom-note](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 ## Two Pointers
 |  |
