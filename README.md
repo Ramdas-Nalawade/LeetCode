@@ -43,12 +43,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0392-is-subsequence) |
 | [0709-to-lower-case](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0709-to-lower-case) |
 | [0771-jewels-and-stones](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0771-jewels-and-stones) |
+| [1021-remove-outermost-parentheses](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/1021-remove-outermost-parentheses) |
 ## Stack
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0232-implement-queue-using-stacks](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0232-implement-queue-using-stacks) |
+| [1021-remove-outermost-parentheses](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/1021-remove-outermost-parentheses) |
 ## Linked List
 |  |
 | ------- |
