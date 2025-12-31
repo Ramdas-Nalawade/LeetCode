@@ -1,15 +1,16 @@
 class Solution {
-    public int removeDuplicates(int[] nums) {
+    public int removeDuplicates(int[] nums) 
+    {
         Map<Integer, Integer> map = new HashMap<>();
-        int index = 0;
+        int count = 0;
 
-        for (int n : nums) {
-            map.put(n, map.getOrDefault(n, 0) + 1);
+        for (int i : nums) {
+            map.put(i, map.getOrDefault(i, 0) + 1);
 
-            if (map.get(n) == 1) {   // first time seen
-                nums[index++] = n;
+            if (map.get(i) == 1) {  
+                nums[count++] = i;
             }
         }
-        return index;
+        return count;
     }
 }
