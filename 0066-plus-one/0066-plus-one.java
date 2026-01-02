@@ -9,9 +9,9 @@ class Solution {
                 return digits;
             }
             digits[i] = 0;
-        }
-        digits = new int[digits.length+1];
-        digits[0] = 1;
-        return digits;
+        }        
+        int[] result = new int[digits.length + 1];
+        result[0] = 1;
+        return result;
     }
 }
