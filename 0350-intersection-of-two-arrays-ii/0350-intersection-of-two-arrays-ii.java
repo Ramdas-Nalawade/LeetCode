@@ -11,7 +11,6 @@ class Solution {
         {
             map.put(i, map.getOrDefault(i, 0) + 1);
         }
-
         for(int i: nums2)
         {
             if(map.getOrDefault(i, 0) > 0)
@@ -21,7 +20,6 @@ class Solution {
             }
         }
         int[] finalArray = new int[list.size()];
-
         for(int i = 0; i < list.size(); i++)
         {
             finalArray[i] = list.get(i);
