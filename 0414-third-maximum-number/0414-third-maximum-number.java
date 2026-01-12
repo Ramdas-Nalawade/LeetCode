@@ -1,43 +1,13 @@
 class Solution {
     public int thirdMax(int[] nums) 
     {
-    //     Long first = null;
-    //     Long second = null;
-    //     Long third = null;
+        Set<Integer> set = new HashSet<>();
 
-    //     for(int i: nums)
-    //     {
-    //         if((first != null && i == first) || 
-    //         (second != null && i == second) || 
-    //         (third != null && i == third))
-    //             continue;
+        for(int i: nums)
+            set.add(i);
 
-    //         if(first == null || i > first) 
-    //         {
-    //             third = second;
-    //             second = first;
-    //             first = (long) i;
-    //         }
-
-    //         else if(second == null || i > second)
-    //         {
-    //             third = second;
-    //             second = (long) i;
-    //         }
-
-    //         else if(third == null || i > third)
-    //             third = (long) i;
-    //     }       
-    //     return (third == null ? first.intValue() : third.intValue());
-
-    Set<Integer>set = new HashSet<>();
-
-    for(int i: nums)
-        set.add(i);
-
-    Integer[] arr = set.toArray(new Integer[0]);
-    Arrays.sort(arr);
-    
-    return (arr.length < 3) ? arr[arr.length - 1] : arr[arr.length - 3];
+        Integer[] arr = set.toArray(new Integer[0]);
+        Arrays.sort(arr);
+        return arr.length < 3 ? arr[arr.length - 1] : arr[arr.length - 3];
     }
 }
