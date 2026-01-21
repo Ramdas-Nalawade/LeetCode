@@ -3,19 +3,21 @@ class Solution {
     {
         if(s.length() != t.length())
             return false;
-            
+
         Map<Character, Integer> map1 = new HashMap<>();
 
         for(int i = 0; i < s.length(); i++)
         {
-            map1.put(s.charAt(i), map1.getOrDefault(s.charAt(i), 0) + 1);
+            char ch = s.charAt(i);
+            map1.put(ch, map1.getOrDefault(ch, 0) + 1);
         }
 
         for(int i = 0; i < t.length(); i++)
         {
-            if(!map1.containsKey(t.charAt(i)) || map1.get(t.charAt(i)) == 0)
+            char ch = t.charAt(i);
+            if(!map1.containsKey(ch) || map1.get(ch) == 0)
                 return false;
-            map1.put(t.charAt(i), map1.get(t.charAt(i)) - 1);
+            map1.put(ch, map1.get(ch) - 1);
         }
         return true;
     }
