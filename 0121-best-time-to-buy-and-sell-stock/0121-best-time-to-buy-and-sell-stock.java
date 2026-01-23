@@ -4,12 +4,12 @@ class Solution {
         int maxProfit = 0;
         int lowestPrice = Integer.MAX_VALUE;
 
-        for(int i = 0; i < prices.length; i++)
+        for(int i: prices)
         {
-            lowestPrice = (lowestPrice > prices[i] ? prices[i]: lowestPrice);
-            int currentProfit = prices[i] - lowestPrice;
-            maxProfit = (maxProfit > currentProfit ? maxProfit : currentProfit);
-        }
+            lowestPrice = lowestPrice > i ? i : lowestPrice;
+            int currentProfit = i - lowestPrice;
+            maxProfit = maxProfit > currentProfit ? maxProfit : currentProfit;
+        }        
         return maxProfit;
     }
 }
