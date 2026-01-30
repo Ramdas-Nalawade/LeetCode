@@ -12,16 +12,28 @@ class Solution {
         // } 
         // return count;
 
-        Map<Integer, Integer> map = new HashMap<>();
-        int count = 0;
+        // Map<Integer, Integer> map = new HashMap<>();
+        // int count = 0;
 
-        for(int i: nums)
+        // for(int i: nums)
+        // {
+        //     map.put(i, map.getOrDefault(i, 0) + 1);
+        //     if(map.get(i) == 1)
+        //         nums[count++] = i;
+        // }
+
+        // return count;
+
+        int j = 0;
+
+        for(int i = 0; i < nums.length; i++)
         {
-            map.put(i, map.getOrDefault(i, 0) + 1);
-            if(map.get(i) == 1)
-                nums[count++] = i;
+            if(nums[i] != nums[j])
+            {
+                j++;
+                nums[j] = nums[i];
+            }
         }
-
-        return count;
+        return j+1;
     }
 }
