@@ -1,14 +1,6 @@
 class Solution {
     public boolean isAnagram(String s, String t) 
     {
-        // char[] sArr = s.toCharArray();
-        // char[] tArr = t.toCharArray();
-
-        // Arrays.sort(sArr);
-        // Arrays.sort(tArr);
-
-        // return Arrays.equals(sArr, tArr);
-
         if(s.length() != t.length())
             return false;
 
@@ -18,11 +10,11 @@ class Solution {
         {
             char ch = s.charAt(i);
             map.put(ch, map.getOrDefault(ch, 0) + 1);
-        }
+        }        
         for(int i = 0; i < t.length(); i++)
         {
             char ch = t.charAt(i);
-            if(!map.containsKey(ch)  || map.get(ch) == 0)
+            if(!map.containsKey(ch) || map.get(ch) == 0)
                 return false;
             map.put(ch, map.getOrDefault(ch, 0) - 1);
         }
