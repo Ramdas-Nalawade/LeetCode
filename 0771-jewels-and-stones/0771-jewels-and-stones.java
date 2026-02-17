@@ -11,7 +11,7 @@ class Solution {
         for(int i = 0; i < stones.length(); i++)
         {
             char ch = stones.charAt(i);
-            if(map.containsKey(ch))
+            if(map.containsKey(ch) && map.get(ch) >= 1)
                 count++;
         }
         return count;
