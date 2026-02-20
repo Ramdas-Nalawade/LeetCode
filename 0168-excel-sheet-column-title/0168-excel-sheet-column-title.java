@@ -10,7 +10,7 @@ class Solution {
             char ch = (char) ('A' + remainder);
             result = result.append(ch);
             columnNumber /= 26;
-        }        
+        }
         return result.reverse().toString();
     }
 }
