@@ -3,8 +3,8 @@ class Solution {
     {
         //when depth becomes 1 → 0 or 0 → 1,
         //we know we are crossing the outer wall → skip those parentheses.
-        StringBuilder result = new StringBuilder();
         int depth = 0;
+        StringBuilder result = new StringBuilder();
 
         for(char ch: s.toCharArray())
         {
@@ -20,7 +20,7 @@ class Solution {
                 if(depth > 0)
                     result.append(ch);
             }
-        }   
-        return result.toString();     
+        }    
+        return result.toString();    
     }
 }
