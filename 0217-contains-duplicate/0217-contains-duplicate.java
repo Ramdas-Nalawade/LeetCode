@@ -15,12 +15,22 @@ class Solution {
 
         Set<Integer> set = new HashSet<>();
 
-        for(int i: nums)
+        // for(int i: nums)
+        // {
+        //     if(set.contains(i))
+        //         return true;
+        //     set.add(i);
+        // }
+        // return false;
+
+        Arrays.sort(nums);
+
+        for(int i = 0; i < nums.length - 1; i++)
         {
-            if(set.contains(i))
+            if(nums[i] == nums[i+1])
                 return true;
-            set.add(i);
         }
         return false;
     }
 }
+
