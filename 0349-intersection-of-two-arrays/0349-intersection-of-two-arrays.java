@@ -1,7 +1,7 @@
 class Solution {
     public int[] intersection(int[] nums1, int[] nums2) 
     {
-        Map<Integer, Integer>map = new HashMap<>();
+        Map<Integer, Integer> map = new HashMap<>();
         List<Integer> list = new ArrayList<>();
 
         for(int i: nums1)
@@ -11,15 +11,16 @@ class Solution {
         {
             if(map.getOrDefault(i, 0) > 0)
             {
+                if(!list.contains(i))
                 list.add(i);
-                map.put(i, 0);
+                map.put(i, map.getOrDefault(i, 0) - 1);
             }
         }
-        int[] finalArray = new int[list.size()];
+        int[] arr = new int[list.size()];
+
         for(int i = 0; i < list.size(); i++)
-        {
-            finalArray[i] = list.get(i);
-        }
-        return finalArray;
+            arr[i] = list.get(i);
+
+        return arr;
     }
 }
