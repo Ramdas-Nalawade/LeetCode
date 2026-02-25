@@ -6,7 +6,7 @@ class Solution {
         for(int i = 0; i < m; i++)
         {
             nums1[count++] = nums1[i];
-        }
+        }   
         for(int i = 0; i < n; i++)
         {
             nums1[count++] = nums2[i];
