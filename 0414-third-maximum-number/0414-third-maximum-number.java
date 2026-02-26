@@ -8,6 +8,9 @@ class Solution {
 
         Integer[] arr = set.toArray(new Integer[0]);
         Arrays.sort(arr);
-        return arr.length < 3 ? arr[arr.length - 1] : arr[arr.length - 3];
+
+        if(arr.length < 3)
+            return arr[arr.length - 1];
+        return arr[arr.length - 3];        
     }
 }
