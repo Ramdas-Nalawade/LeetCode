@@ -2,14 +2,15 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
 ## Array
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0001-two-sum](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0001-two-sum) |
 | [0014-longest-common-prefix](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0014-longest-common-prefix) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0027-remove-element) |
 | [0042-trapping-rain-water](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0055-jump-game/) | Medium |
 | [0066-plus-one](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0066-plus-one) |
 | [0088-merge-sorted-array](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -25,8 +26,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0977-squares-of-a-sorted-array](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
 ## Hash Table
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0001-two-sum](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0001-two-sum) |
 | [0169-majority-element](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0217-contains-duplicate) |
@@ -38,8 +39,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0771-jewels-and-stones](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0771-jewels-and-stones) |
 ## String
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0014-longest-common-prefix](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0020-valid-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
@@ -58,34 +59,34 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1021-remove-outermost-parentheses](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/1021-remove-outermost-parentheses) |
 | [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 ## Stack
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0020-valid-parentheses](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0232-implement-queue-using-stacks](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0232-implement-queue-using-stacks) |
 | [1021-remove-outermost-parentheses](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/1021-remove-outermost-parentheses) |
 ## Linked List
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0021-merge-two-sorted-lists) |
 ## Recursion
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0021-merge-two-sorted-lists) |
 ## Queue
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0232-implement-queue-using-stacks](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0232-implement-queue-using-stacks) |
 | [0387-first-unique-character-in-a-string](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 ## Counting
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0169-majority-element](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0169-majority-element) |
 | [0383-ransom-note](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 ## Two Pointers
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0027-remove-element) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
@@ -103,8 +104,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0557-reverse-words-in-a-string-iii](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0977-squares-of-a-sorted-array](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
 ## Sorting
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0088-merge-sorted-array](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0217-contains-duplicate) |
@@ -114,70 +115,75 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0414-third-maximum-number](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0414-third-maximum-number) |
 | [0977-squares-of-a-sorted-array](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
 ## Design
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0232-implement-queue-using-stacks](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0232-implement-queue-using-stacks) |
 ## Binary Search
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0069-sqrtx](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0069-sqrtx) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0349-intersection-of-two-arrays](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Tree
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 ## Depth-First Search
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 ## Breadth-First Search
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 ## Binary Tree
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 ## Trie
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0014-longest-common-prefix](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0014-longest-common-prefix) |
 ## Divide and Conquer
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0053-maximum-subarray](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0169-majority-element) |
 ## Dynamic Programming
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0042-trapping-rain-water](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0055-jump-game/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0392-is-subsequence](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0392-is-subsequence) |
 ## Monotonic Stack
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0042-trapping-rain-water](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0042-trapping-rain-water) |
 ## Math
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0066-plus-one](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0066-plus-one) |
 | [0069-sqrtx](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0069-sqrtx) |
 | [0168-excel-sheet-column-title](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0168-excel-sheet-column-title) |
 | [0189-rotate-array](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0189-rotate-array) |
 ## String Matching
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 ## Bit Manipulation
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0136-single-number](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0136-single-number) |
 | [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 ## Simulation
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0055-jump-game](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0055-jump-game/) | Medium |
 <!---LeetCode Topics End-->
