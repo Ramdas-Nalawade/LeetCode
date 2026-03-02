@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0027-remove-element) |
 | [0042-trapping-rain-water](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0045-jump-game-ii/) | Medium |
 | [0053-maximum-subarray](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0055-jump-game/) | Medium |
 | [0066-plus-one](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0066-plus-one) |
@@ -154,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0042-trapping-rain-water](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0045-jump-game-ii/) | Medium |
 | [0053-maximum-subarray](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0055-jump-game/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -185,5 +187,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0045-jump-game-ii](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0045-jump-game-ii/) | Medium |
 | [0055-jump-game](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0055-jump-game/) | Medium |
 <!---LeetCode Topics End-->
