@@ -9,12 +9,6 @@ class Solution {
         {
             farthest = Math.max(farthest, i+nums[i]);
 
-            if(farthest >= nums.length - 1)
-            {
-                jumps++;
-                break;
-            }
-
             if(i == currentEnd)
             {
                 jumps++;
