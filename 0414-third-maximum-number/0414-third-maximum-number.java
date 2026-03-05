@@ -7,19 +7,10 @@ class Solution {
             set.add(i);
 
         Integer[] arr = set.toArray(new Integer[0]);
-        for(int i = 0; i < arr.length - 1; i++)
-        {
-            for(int j = 0; j < arr.length - 1 - i; j++)
-            {
-                if(arr[j] > arr[j+1])
-                {
-                    int temp = arr[j];
-                    arr[j] = arr[j+1];
-                    arr[j+1] = temp;
-                }
-            }
-        }
+        Arrays.sort(arr);
 
-        return arr.length > 2 ? arr[arr.length - 3] : arr[arr.length - 1];
+        if(arr.length < 3)
+            return arr[arr.length - 1];
+        return arr[arr.length - 3];        
     }
 }
