@@ -3,15 +3,17 @@ class Solution {
     {
         List<Integer> list = new ArrayList<>();
         Set<Integer> set = new HashSet<>();
+        Arrays.sort(nums);
 
-        for(int i: nums)
+        for(int i = 0; i < nums.length; i++)
         {
-            set.add(i);
+            set.add(nums[i]);
         }
-        for(int i = 1; i <= nums.length; i++)
+
+        for(int i = 0; i < nums.length; i++)
         {
-            if(!set.contains(i))
-                list.add(i);
+            if(!set.contains(i+1))
+                list.add(i+1);
         }
         return list;
     }
