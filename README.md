@@ -180,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0045-jump-game-ii/) | Medium |
 | [0053-maximum-subarray](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0055-jump-game/) | Medium |
+| [0070-climbing-stairs](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0070-climbing-stairs/) | Easy |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0392-is-subsequence](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0392-is-subsequence) |
 ## Monotonic Stack
@@ -192,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0013-roman-to-integer/) | Easy |
 | [0066-plus-one](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0066-plus-one) |
 | [0069-sqrtx](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0069-sqrtx) |
+| [0070-climbing-stairs](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0070-climbing-stairs/) | Easy |
 | [0168-excel-sheet-column-title](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0168-excel-sheet-column-title) |
 | [0189-rotate-array](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0189-rotate-array) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
@@ -232,4 +234,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
+## Memoization
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0070-climbing-stairs](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0070-climbing-stairs/) | Easy |
 <!---LeetCode Topics End-->
