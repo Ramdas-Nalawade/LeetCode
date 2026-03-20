@@ -1,24 +1,36 @@
 class Solution {
     public boolean containsDuplicate(int[] nums) 
     {
+        
         // Map<Integer, Integer> map = new HashMap<>();
 
-        // for(int i = 0; i < nums.length; i++)
+        // for(int i: nums)
+        //     map.put(i, map.getOrDefault(i, 0) + 1);
+
+        // for(int i: nums)
         // {
-        //     int ch = nums[i];
-        //     map.put(ch, map.getOrDefault(ch, 0) + 1);
-        //     if(map.get(ch) >= 2)
+        //     if(map.get(i) > 1)
         //         return true;
         // }
         // return false;
 
-        Arrays.sort(nums);
+        Set<Integer> set = new HashSet<>();
 
-        for(int i = 0; i < nums.length - 1; i++)
+        for(int i: nums)
         {
-            if(nums[i] == nums[i+1])
+            if(set.contains(i))
                 return true;
+            set.add(i);
         }
         return false;
+
+        // Arrays.sort(nums);
+
+        // for(int i = 0; i < nums.length - 1; i++)
+        // {
+        //     if(nums[i] == nums[i+1])
+        //         return true;
+        // }
+        // return false;
     }
 }
