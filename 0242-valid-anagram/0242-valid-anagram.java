@@ -20,8 +20,8 @@ class Solution {
         // }
         // return true;
 
-        String[] ch1 = s.split("");
-        String[] ch2 = t.split("");
+        char[] ch1 = s.toCharArray();
+        char[] ch2 = t.toCharArray();
 
         Arrays.sort(ch1);
         Arrays.sort(ch2);
