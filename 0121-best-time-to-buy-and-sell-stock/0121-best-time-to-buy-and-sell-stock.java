@@ -6,10 +6,9 @@ class Solution {
 
         for(int i = 0; i < prices.length; i++)
         {
-            lowestPrice = lowestPrice < prices[i] ? lowestPrice : prices[i];
-            int currentProfit = prices[i] - lowestPrice;
-            maxProfit = maxProfit > currentProfit ?
-                         maxProfit : currentProfit;
+            lowestPrice = lowestPrice > prices[i] ? prices[i] : lowestPrice;
+            int todaysProfit = prices[i] - lowestPrice;
+            maxProfit = maxProfit > todaysProfit ? maxProfit : todaysProfit;
         }
         return maxProfit;
     }
