@@ -5,15 +5,11 @@ class Solution {
         Map<Integer, Integer> map = new HashMap<>();
 
         for(int i = 0; i < nums.length; i++)
-            map.put(nums[i], map.getOrDefault(nums[i], 0) + 1);
-        
-        for(int i = 0; i < nums.length; i++)
         {
-            if(map.get(nums[i]) == 1)
-            {
-                nums[count++] = nums[i];
-            }
-            map.put(nums[i], map.getOrDefault(nums[i], 0) - 1);
+            int ch = nums[i];
+            if(!map.containsKey(ch))
+                nums[count++] = ch;
+            map.put(ch, map.getOrDefault(ch, 0) + 1);
         }
         return count;
     }
