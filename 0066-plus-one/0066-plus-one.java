@@ -8,10 +8,7 @@ class Solution {
                 digits[i]++;
                 return digits;
             }
-            else
-            {
-                digits[i] = 0;
-            }
+            digits[i] = 0;
         }
         int[] arr = new int[digits.length+1];
         arr[0] = 1;
