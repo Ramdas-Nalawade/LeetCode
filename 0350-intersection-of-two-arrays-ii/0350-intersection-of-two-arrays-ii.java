@@ -9,18 +9,18 @@ class Solution {
 
         for(int i: nums2)
         {
-            if(map.getOrDefault(i, 0) > 0)
+            if(map.containsKey(i) && map.get(i) >= 1)
             {
                 list.add(i);
-                map.put(i, map.getOrDefault(i, 0) - 1);
             }
+            map.put(i, map.getOrDefault(i, 0) - 1);
         }
-        int[] finalArray = new int[list.size()];
+        int[] result = new int[list.size()];
 
         for(int i = 0; i < list.size(); i++)
         {
-            finalArray[i] = list.get(i);
+            result[i] = list.get(i);
         }
-        return finalArray;
+        return result;
     }
 }
