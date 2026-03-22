@@ -8,6 +8,6 @@ class Solution {
                 p++;
             }
         }
-        return count;
+        return p;
     }
 }
