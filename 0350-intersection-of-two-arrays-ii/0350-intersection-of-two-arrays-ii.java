@@ -9,7 +9,8 @@ class Solution {
 
         for(int i: nums2)
         {
-            if(map.containsKey(i) && map.get(i) >= 1)
+            // if(map.containsKey(i) && map.get(i) >= 1)
+            if(map.getOrDefault(i, 0) > 0)
             {
                 list.add(i);
             }
