@@ -13,8 +13,8 @@ class Solution {
             if(map.getOrDefault(i, 0) > 0)
             {
                 list.add(i);
+                map.put(i, map.getOrDefault(i, 0) - 1);
             }
-            map.put(i, map.getOrDefault(i, 0) - 1);
         }
         int[] result = new int[list.size()];
 
