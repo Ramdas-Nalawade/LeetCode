@@ -9,7 +9,7 @@ class Solution {
             int ch = nums[i];
             if(!map.containsKey(ch))
                 nums[count++] = ch;
-            map.put(ch, map.getOrDefault(ch, 0) + 1);
+            map.put(ch, i);
         }
         return count;
     }
