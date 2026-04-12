@@ -5,10 +5,9 @@ class Solution {
 
         for(int i = 1; i < prices.length; i++)
         {
-            int current = prices[i] - prices[i-1];
-
-            if(current > 0)
-                maxProfit += current;
+            int currentProfit = prices[i] - prices[i-1];
+            if(currentProfit > 0)
+                maxProfit += currentProfit;
         }
         return maxProfit;
     }
