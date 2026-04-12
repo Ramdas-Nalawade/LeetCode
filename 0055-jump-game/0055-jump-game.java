@@ -1,29 +1,13 @@
 class Solution {
     public boolean canJump(int[] nums) 
     {
-        int goal = 0;
+        int goal = nums.length - 1;
 
-        for(int i = 0; i < nums.length; i++)
+        for(int i = nums.length - 2; i >= 0; i--)
         {
-            if(i > goal)
-                return false;
-
-            goal = Math.max(goal ,i+nums[i]);
+            if((i+nums[i]) >= goal)
+                goal = i;
         }
-        return true;
+        return goal == 0;
     }
 }
-
-// class Solution {
-//     public boolean canJump(int[] nums) 
-//     {
-//         int goal = nums.length - 1;
-
-//         for(int i = nums.length - 2; i >= 0; i--)
-//         {
-//             if((i+nums[i]) >= goal)
-//                 goal = i;
-//         }
-//         return goal == 0;
-//     }
-// }
