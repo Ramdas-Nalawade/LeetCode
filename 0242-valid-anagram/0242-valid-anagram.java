@@ -6,14 +6,19 @@ class Solution {
 
         Map<Character, Integer> map = new HashMap<>();
 
-        for(Character c: s.toCharArray())
-            map.put(c, map.getOrDefault(c, 0) + 1);
-
-        for(Character c: t.toCharArray())
+        for(int i = 0; i < s.length(); i++)
         {
-            if(!map.containsKey(c))
+            char ch = s.charAt(i);
+            map.put(ch, map.getOrDefault(ch, 0) + 1);
+        }
+            
+
+        for(int i = 0; i < s.length(); i++)
+        {
+            char ch = t.charAt(i);
+            if(!map.containsKey(ch))
                 return false;
-            map.put(c, map.getOrDefault(c, 0) - 1);
+            map.put(ch, map.getOrDefault(ch, 0) - 1);
         }
         return true;
     }
