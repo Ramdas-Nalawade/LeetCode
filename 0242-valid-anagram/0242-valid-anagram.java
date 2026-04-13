@@ -16,7 +16,7 @@ class Solution {
         for(int i = 0; i < s.length(); i++)
         {
             char ch = t.charAt(i);
-            if(!map.containsKey(ch))
+            if(!map.containsKey(ch) || map.get(ch) == 0)
                 return false;
             map.put(ch, map.getOrDefault(ch, 0) - 1);
         }
