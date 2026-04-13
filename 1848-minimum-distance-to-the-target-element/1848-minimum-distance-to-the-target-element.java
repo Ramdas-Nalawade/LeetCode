@@ -1,16 +1,20 @@
 class Solution {
     public int getMinDistance(int[] nums, int target, int start) 
     {
-        int count = Integer.MAX_VALUE;
+        for(int i = 0; i < nums.length; i++)
+        {
+            if(nums[i] == target && i == start)
+                return 0;
+        }
+
+        int minDistance = Integer.MAX_VALUE;
 
         for(int i = 0; i < nums.length; i++)
         {
             if(nums[i] == target)
-            {
-                int val = Math.abs(i - start);
-                count = Math.min(count, val);
-            }
+                minDistance = Math.min(minDistance, Math.abs(i - start));
         }
-        return count;
+
+        return minDistance;
     }
 }
