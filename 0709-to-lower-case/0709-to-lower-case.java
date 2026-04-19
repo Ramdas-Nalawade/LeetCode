@@ -3,13 +3,12 @@ class Solution {
     {
         String ans = "";
 
-        for(int i = 0; i < s.length(); i++)
+        for(char c: s.toCharArray())
         {
-            char ch = s.charAt(i);
-            if(ch >= 'A' && ch <= 'Z')
-                ans += (char) (ch+32);
+            if(c >= 'A' && c <= 'Z')
+                ans += (char) (c+32);
             else
-                ans += ch;
+                ans += c;
         }
         return ans;
     }
