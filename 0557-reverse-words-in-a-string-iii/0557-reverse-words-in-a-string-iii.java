@@ -2,13 +2,13 @@ class Solution {
     public String reverseWords(String s) 
     {
         String[] arr = s.split(" ");
-        String result = "";
+        String ans = "";
 
         for(int i = 0; i < arr.length; i++)
         {
             StringBuilder sb = new StringBuilder(arr[i]);
-            result += sb.reverse()+" ";
+            ans += sb.reverse()+" ";
         }
-        return result.trim();
+        return ans.trim();
     }
 }
