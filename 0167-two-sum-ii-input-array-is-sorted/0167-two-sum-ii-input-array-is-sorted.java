@@ -1,23 +1,17 @@
 class Solution {
     public int[] twoSum(int[] numbers, int target) 
     {
-        int left = 0;
-        int right = numbers.length - 1;
+        Map<Integer, Integer> map = new HashMap<>();
 
-        while(left < right)
+        for(int i = 0; i < numbers.length; i++)
         {
-            int total = numbers[left]+numbers[right];
+            int complement = target - numbers[i];
 
-            if(total < target)
-            {
-                left++;
-            }
-            else if(total > target)
-                right--;
-            else 
-                return new int[] {left+1, right+1};
-            
+            if(map.containsKey(complement))
+                return new int[] {map.get(complement)+1, i+1};
+
+            map.put(numbers[i], i);
         }
-        return new int[] {};
+        return new int[]{};
     }
 }
