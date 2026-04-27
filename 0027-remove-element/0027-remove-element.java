@@ -3,10 +3,10 @@ class Solution {
     {
         int count = 0;
 
-        for(int i = 0; i < nums.length; i++)
+        for(int i: nums)
         {
-            if(nums[i] != val)
-                nums[count++] = nums[i];
+            if(i != val)
+                nums[count++] =i;
         }
         return count;
     }
