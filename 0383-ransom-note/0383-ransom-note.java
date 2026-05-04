@@ -5,15 +5,15 @@ class Solution {
 
         for(int i = 0; i < magazine.length(); i++)
         {
-            char ch = magazine.charAt(i);
-            map.put(ch, map.getOrDefault(ch, 0)+1);
+            char c = magazine.charAt(i);
+            map.put(c, map.getOrDefault(c, 0) + 1);
         }
         for(int i = 0; i < ransomNote.length(); i++)
         {
-            char ch = ransomNote.charAt(i);
-            if(!map.containsKey(ch) || map.get(ch) == 0)
+            char c = ransomNote.charAt(i);
+            if(!map.containsKey(c) || map.get(c) == 0)
                 return false;
-            map.put(ch, map.getOrDefault(ch, 0)-1);
+            map.put(c, map.getOrDefault(c, 0) - 1);
         }
         return true;
     }
