@@ -8,7 +8,7 @@ class Solution {
         {
             if(!map.containsKey(nums[i]))
                 nums[count++] = nums[i];
-            map.put(nums[i], map.getOrDefault(nums[i], 0) + 1);
+            map.put(nums[i], 0);
         }
         return count;
     }
