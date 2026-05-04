@@ -3,24 +3,24 @@ class Solution {
     {
         Map<Integer, Integer> map = new HashMap<>();
         List<Integer> list = new ArrayList<>();
+        int count = 0;
 
-        for(int i = 0; i < nums1.length; i++)
-        {
-            int ch = nums1[i];
-            map.put(ch, map.getOrDefault(ch, 0) + 1);
-        }        
+        for(int i: nums1)
+            map.put(i, map.getOrDefault(i, 0) + 1);
+
         for(int i: nums2)
         {
             if(map.getOrDefault(i, 0) > 0)
+            {
                 list.add(i);
-            map.put(i, map.getOrDefault(i, 0) - 1);
+                map.put(i, map.getOrDefault(i, 0) - 1);
+            }
         }
-
-        int[] arr = new int[list.size()];
+        int[]arr = new int[list.size()];
 
         for(int i = 0; i < list.size(); i++)
         {
-            arr[i] = list.get(i);
+            arr[count++] = list.get(i);
         }
         return arr;
     }
