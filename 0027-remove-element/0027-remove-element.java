@@ -6,7 +6,7 @@ class Solution {
         for(int i: nums)
         {
             if(i != val)
-                nums[count++] =i;
+                nums[count++] = i;
         }
         return count;
     }
