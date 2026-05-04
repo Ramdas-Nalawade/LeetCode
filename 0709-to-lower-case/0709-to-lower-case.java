@@ -1,15 +1,15 @@
 class Solution {
     public String toLowerCase(String s) 
     {
-        String ans = "";
+        String result = "";
 
         for(char c: s.toCharArray())
         {
             if(c >= 'A' && c <= 'Z')
-                ans += (char) (c+32);
+                result += (char) (c+32);
             else
-                ans += c;
+                result += c;
         }
-        return ans;
+        return result;
     }
 }
