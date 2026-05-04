@@ -3,15 +3,15 @@ class Solution {
     {
         Stack<Character> stack = new Stack<>();
 
-        for(char ch: s.toCharArray())
+        for(char c: s.toCharArray())
         {
-            if(ch == '(')
+            if(c == '(')
                 stack.push(')');
-            else if(ch == '{')
+            else if(c == '{')
                 stack.push('}');
-            else if(ch == '[')
+            else if(c == '[')
                 stack.push(']');
-            else if(stack.isEmpty() || stack.pop() != ch)
+            else if(stack.isEmpty() || stack.pop() != c)
                 return false;
         }
         return stack.isEmpty();
