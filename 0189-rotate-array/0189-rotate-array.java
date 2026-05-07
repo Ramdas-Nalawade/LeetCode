@@ -3,9 +3,9 @@ class Solution {
     {
         k = k % nums.length;
 
-        reverse(0, nums.length - 1, nums);
+        reverse(0, nums.length-1, nums);
         reverse(0, k-1, nums);
-        reverse(k, nums.length - 1, nums);
+        reverse(k, nums.length-1, nums);
     }
     public void reverse(int left, int right, int[] arr)
     {
