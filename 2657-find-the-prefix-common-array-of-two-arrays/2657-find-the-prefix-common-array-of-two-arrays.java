@@ -1,33 +1,28 @@
-class Solution {
+import java.util.*;
 
+class Solution {
     public int[] findThePrefixCommonArray(int[] A, int[] B) {
 
         int n = A.length;
-
-        Set<Integer> setA = new HashSet<>();
-        Set<Integer> setB = new HashSet<>();
-
         int[] result = new int[n];
+
+        Map<Integer, Integer> map = new HashMap<>();
 
         int common = 0;
 
         for (int i = 0; i < n; i++) {
 
-            if (A[i] == B[i]) {
+            map.put(A[i], map.getOrDefault(A[i], 0) + 1);
+
+            if (map.get(A[i]) == 2) {
                 common++;
-            } else {
-
-                if (setB.contains(A[i])) {
-                    common++;
-                }
-
-                if (setA.contains(B[i])) {
-                    common++;
-                }
             }
 
-            setA.add(A[i]);
-            setB.add(B[i]);
+            map.put(B[i], map.getOrDefault(B[i], 0) + 1);
+
+            if (map.get(B[i]) == 2) {
+                common++;
+            }
 
             result[i] = common;
         }
