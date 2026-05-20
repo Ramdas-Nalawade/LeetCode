@@ -3,9 +3,7 @@ class Solution {
     {
         int candies = 0;
         int[] arr = new int[ratings.length];
-
-        for(int i = 0; i < ratings.length; i++)
-            arr[i] = 1;
+        Arrays.fill(arr, 1);
 
         for(int i = 1; i < ratings.length; i++)
         {
