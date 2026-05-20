@@ -5,9 +5,7 @@ class Solution {
 
         int n = A.length;
         int[] result = new int[n];
-
         Map<Integer, Integer> map = new HashMap<>();
-
         int common = 0;
 
         for (int i = 0; i < n; i++) {
