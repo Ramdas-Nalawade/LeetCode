@@ -1,21 +1,19 @@
 class Solution {
-    public int numberOfSpecialChars(String word) {
-        
-        HashSet<Character> set = new HashSet<>();
+    public int numberOfSpecialChars(String word) 
+    {
+        Set<Character> set = new HashSet<>();
+        int count = 0;
 
-        for(char ch : word.toCharArray()) {
+        for(char ch: word.toCharArray())        
+        {
             set.add(ch);
         }
 
-        int count = 0;
-
-        for(char ch = 'a'; ch <= 'z'; ch++) {
-
-            if(set.contains(ch) && set.contains((char)(ch - 'a' + 'A'))) {
+        for(char i = 'A'; i <= 'Z'; i++)
+        {
+            if(set.contains(i) && set.contains((char)(i - 'A' + 'a')))
                 count++;
-            }
         }
-
         return count;
     }
 }
