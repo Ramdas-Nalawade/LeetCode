@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2540-minimum-common-value](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/2540-minimum-common-value/) | Easy |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
+| [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -226,6 +227,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0168-excel-sheet-column-title](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0168-excel-sheet-column-title) |
 | [0189-rotate-array](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0189-rotate-array) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
+| [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
 | [3783-mirror-distance-of-an-integer](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/3783-mirror-distance-of-an-integer/) | Easy |
 ## String Matching
 | Problem Name | Difficulty |
