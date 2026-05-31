@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0977-squares-of-a-sorted-array](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/1295-find-numbers-with-even-number-of-digits/) | Easy |
 | [1848-minimum-distance-to-the-target-element](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/1848-minimum-distance-to-the-target-element/) | Easy |
+| [1913-maximum-product-difference-between-two-pairs](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/1913-maximum-product-difference-between-two-pairs/) | Easy |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
 | [2540-minimum-common-value](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/2540-minimum-common-value/) | Easy |
@@ -165,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0350-intersection-of-two-arrays-ii](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0414-third-maximum-number](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0414-third-maximum-number) |
 | [0977-squares-of-a-sorted-array](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
+| [1913-maximum-product-difference-between-two-pairs](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/1913-maximum-product-difference-between-two-pairs/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 ## Design
 | Problem Name | Difficulty |
