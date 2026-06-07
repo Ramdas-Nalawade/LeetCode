@@ -4,13 +4,14 @@ class Solution {
         if(nums == null || nums.length < 3)
             return new ArrayList<>();
 
+        int n = nums.length;
         Set<List<Integer>> set = new HashSet<>();
         Arrays.sort(nums);
 
-        for(int i = 0; i < nums.length - 2; i++)
+        for(int i = 0; i < n - 2; i++)
         {
             int left = i+1;
-            int right = nums.length - 1;
+            int right = n - 1;
 
             while(left < right)
             {
@@ -18,14 +19,14 @@ class Solution {
 
                 if(sum == 0)
                 {
-                    set.add(Arrays.asList(nums[i],nums[left],nums[right]));
+                    set.add(Arrays.asList(nums[i], nums[left], nums[right]));
                     left++;
                     right--;
                 }
                 else if(sum > 0)
                     right--;
-                else 
-                    left++;
+                else
+                    left++;                
             }
         }
         return new ArrayList<>(set);
