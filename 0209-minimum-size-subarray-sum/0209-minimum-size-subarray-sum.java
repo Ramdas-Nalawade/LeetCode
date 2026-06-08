@@ -1,18 +1,15 @@
 class Solution {
     public int minSubArrayLen(int target, int[] nums) 
     {
-        int minLength = Integer.MAX_VALUE;
-        int currentSum = 0, left = 0, right = 0;
+        int left = 0, minLength = Integer.MAX_VALUE, currentSum = 0;
 
-        while(right < nums.length)
+        for(int right = 0; right < nums.length; right++)
         {
             currentSum += nums[right];
-            right++;
 
             while(currentSum >= target)
             {
-                int currentWindowLength = right - left;
-                minLength = Math.min(minLength, currentWindowLength);
+                minLength = Math.min(minLength, right-left+1);
                 currentSum -= nums[left];
                 left++;
             }
