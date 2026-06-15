@@ -10,7 +10,7 @@ class Solution {
         for(int i = 0; i < pattern.length(); i++)
         {
             char ch = pattern.charAt(i);
-            String temp = new String(arr[i]);
+            String temp = (arr[i]);
             
             if(map.containsValue(temp) && !map.containsKey(ch))
                 return false;
