@@ -7,12 +7,12 @@ class Solution {
         {
             if(map.containsKey(nums[i]))
             {
-                int prevIndex = map.get(nums[i]);
-                if(i - prevIndex <= k)
+                if(Math.abs(i-(map.get(nums[i])))<= k)
                     return true;
             }
+
             map.put(nums[i], i);
-        }        
+        }
         return false;
     }
 }
