@@ -2,25 +2,26 @@ class Solution
 {
     private int getSum(int num)
     {
-        int val = 0;
+        int sum = 0;
 
         while(num > 0)
         {
             int current = num % 10;
-            int currSqu = current * current;
-            val += currSqu;
+            sum += current * current;
             num /= 10;
         }
-        return val;
+        return sum;
     }
     public boolean isHappy(int n) 
     {
-        Set<Integer> set = new HashSet<>();
-        while(n != 1 && !set.contains(n))
+        int slow = n, fast = n;
+
+        do
         {
-            set.add(n);
-            n = getSum(n);
-        }
-        return n == 1;
+            slow = getSum(slow);
+            fast = getSum(getSum(fast));
+        }while(slow != fast);
+
+        return slow == 1;
     }
 }
