@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0012-integer-to-roman/) | Medium |
 | [0013-roman-to-integer](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0013-roman-to-integer/) | Easy |
 | [0169-majority-element](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0169-majority-element) |
+| [0202-happy-number](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0202-happy-number/) | Easy |
 | [0205-isomorphic-strings](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0205-isomorphic-strings/) | Easy |
 | [0217-contains-duplicate](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0219-contains-duplicate-ii/) | Easy |
@@ -146,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0189-rotate-array) |
+| [0202-happy-number](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0202-happy-number/) | Easy |
 | [0283-move-zeroes](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0283-move-zeroes) |
 | [0344-reverse-string](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0344-reverse-string) |
 | [0349-intersection-of-two-arrays](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0349-intersection-of-two-arrays) |
@@ -234,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0070-climbing-stairs/) | Easy |
 | [0168-excel-sheet-column-title](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0168-excel-sheet-column-title) |
 | [0189-rotate-array](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0189-rotate-array) |
+| [0202-happy-number](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0202-happy-number/) | Easy |
 | [0380-insert-delete-getrandom-o1](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/1295-find-numbers-with-even-number-of-digits/) | Easy |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
