@@ -5,14 +5,14 @@ class Solution {
             return true;
 
         String xU = String.valueOf(x);
-        StringBuilder reverse = new StringBuilder();
+        String reverse ="";
 
         while(x > 0)
         {
             String temp = String.valueOf(x % 10);
-            reverse.append(temp);
+            reverse += temp;
             x /= 10;
         }       
-        return (reverse.toString()).equals(xU); 
+        return reverse.equals(xU); 
     }
 }
