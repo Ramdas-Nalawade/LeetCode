@@ -1,17 +1,18 @@
 class Solution {
-    public boolean isPalindrome(int x) {
-        int mod, res = 0, num = x; 
-        
-        while(num > 0)
-        {
-            mod = num % 10;
-            res = res * 10 + mod;
-            num /= 10;
-        }
-        if(res == x)
-        {
+    public boolean isPalindrome(int x) 
+    {
+        if(x == 0)
             return true;
-        }
-        return false;
+
+        String xU = String.valueOf(x);
+        StringBuilder reverse = new StringBuilder();
+
+        while(x > 0)
+        {
+            String temp = String.valueOf(x % 10);
+            reverse.append(temp);
+            x /= 10;
+        }       
+        return (reverse.toString()).equals(xU); 
     }
 }
