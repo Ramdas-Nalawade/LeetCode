@@ -1,7 +1,7 @@
 class Solution {
     public int strStr(String haystack, String needle) 
     {
-        if(needle.length() > haystack.length() || 
+        if(needle.length() > haystack.length() ||
             !haystack.contains(needle))
                 return -1;
 
@@ -10,12 +10,10 @@ class Solution {
             int j = 0;
 
             while(j < needle.length() && 
-                needle.charAt(j) == haystack.charAt(i+j))
-            {
-                    j++;
-            }
+            haystack.charAt(i+j) == needle.charAt(j))
+                j++;
 
-            if(j == needle.length())
+            if(needle.length() == j)
                 return i;
         }
         return -1;
