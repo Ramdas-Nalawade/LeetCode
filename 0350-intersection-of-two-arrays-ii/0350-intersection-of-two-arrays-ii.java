@@ -15,12 +15,13 @@ class Solution {
                 map.put(i, map.getOrDefault(i, 0) - 1);
             }
         }
-        // int[] ans = new int[list.size()];
+        int[] ans = new int[list.size()];
 
-        // for(int i = 0; i < list.size(); i++)
-        // {
-        //     ans[i] = list.get(i);
-        // }
-        return list.stream().mapToInt(Integer::intValue).toArray();
+        for(int i = 0; i < list.size(); i++)
+        {
+            ans[i] = list.get(i);
+        }
+        return ans;
+        // return list.stream().mapToInt(Integer::intValue).toArray();
     }
 }
