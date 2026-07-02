@@ -6,9 +6,9 @@ class Solution {
         while(columnNumber > 0)
         {
             columnNumber--;
-            int rem = columnNumber%26;
-            sb = sb.append((char) (rem+'A'));
-            columnNumber /= 26;
+            int mod = columnNumber % 26;
+            sb.append((char) (mod+'A'));
+            columnNumber/= 26;
         }
         return sb.reverse().toString();
     }
