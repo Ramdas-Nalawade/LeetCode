@@ -5,7 +5,7 @@ class Solution {
         Map<Integer, Integer> map = new HashMap<>();
 
         for(int i: nums)
-            map.put(i, map.getOrDefault(i, 0) + 1);
+            map.put(i, 0);
 
         for(int i = 1; i <= nums.length; i++)
         {
