@@ -1,14 +1,12 @@
 class Solution {
     public int thirdMax(int[] nums) 
     {
-        Set<Integer> set = new HashSet<>();
+        Set<Integer> set = new TreeSet<>();
 
         for(int i: nums)
             set.add(i);
 
-        Integer[] arr = set.toArray(new Integer[0]);
-        Arrays.sort(arr);
-
-        return arr.length < 3 ? arr[arr.length-1] : arr[arr.length-3];
+        int[] arr = set.stream().mapToInt(Integer::intValue).toArray();
+        return arr.length < 3 ? arr[arr.length - 1] : arr[arr.length - 3];
     }
 }
