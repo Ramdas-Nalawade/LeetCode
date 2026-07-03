@@ -6,7 +6,7 @@ class Solution {
         for(int i = 1; i < nums.length; i++)
         {
             currSum = Math.max(nums[i], currSum+nums[i]);
-            maxSum = Math.max(maxSum, currSum);
+            maxSum = maxSum > currSum ? maxSum : currSum;
         }
         return maxSum;
     }
