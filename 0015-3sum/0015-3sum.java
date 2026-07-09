@@ -4,18 +4,17 @@ class Solution {
         if(nums == null || nums.length < 3)
             return new ArrayList<>();
 
-        int n = nums.length;
         Set<List<Integer>> set = new HashSet<>();
+        int n = nums.length;
         Arrays.sort(nums);
 
         for(int i = 0; i < n - 2; i++)
         {
-            int left = i+1;
-            int right = n - 1;
+            int left = i+1, right = n-1;
 
             while(left < right)
             {
-                int sum = nums[i] + nums[left] + nums[right];
+                int sum = nums[i]+nums[left]+nums[right];
 
                 if(sum == 0)
                 {
@@ -26,9 +25,9 @@ class Solution {
                 else if(sum > 0)
                     right--;
                 else
-                    left++;                
+                    left++;
             }
         }
-        return new ArrayList<>(set);
+        return new ArrayList(set);
     }
 }
