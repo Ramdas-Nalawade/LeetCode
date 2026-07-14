@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0027-remove-element) |
 | [0042-trapping-rain-water](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0045-jump-game-ii/) | Medium |
+| [0049-group-anagrams](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0049-group-anagrams/) | Medium |
 | [0053-maximum-subarray](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0055-jump-game/) | Medium |
 | [0066-plus-one](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0066-plus-one) |
@@ -56,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0012-integer-to-roman](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0012-integer-to-roman/) | Medium |
 | [0013-roman-to-integer](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0013-roman-to-integer/) | Easy |
+| [0049-group-anagrams](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0049-group-anagrams/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0169-majority-element](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0202-happy-number/) | Easy |
@@ -87,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0020-valid-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0049-group-anagrams](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0049-group-anagrams/) | Medium |
 | [0058-length-of-last-word](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0058-length-of-last-word) |
 | [0125-valid-palindrome](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0151-reverse-words-in-a-string) |
@@ -162,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0015-3sum](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0015-3sum/) | Medium |
+| [0049-group-anagrams](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0049-group-anagrams/) | Medium |
 | [0088-merge-sorted-array](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0217-contains-duplicate) |
