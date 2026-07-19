@@ -1,21 +1,28 @@
 class Solution {
     public int removeDuplicates(int[] nums) 
     {
-        Map<Integer, Integer> map = new LinkedHashMap<>();
-        int index = 0;
+        // Set<Integer> set = new LinkedHashSet<>();
+        int count = 0;
 
-        for(int i: nums)
-            map.put(i, map.getOrDefault(i, 0) + 1);
+        // for(int i: nums)
+        //     set.add(i);
+
+        // int[] arr = set.stream().mapToInt(Integer::intValue).toArray();
+
+        // for(int i: set)
+        // {
+        //     nums[count++] = i;
+        // }
+        // return count;
+
+        Map<Integer, Integer> map = new HashMap<>();
 
         for(int i = 0; i < nums.length; i++)
         {
-            if(map.get(nums[i]) == 1)
-            {
-                nums[index++] = nums[i];
-            }
-            else
-                map.put(nums[i], map.getOrDefault(nums[i], 0) - 1);
+            if(!map.containsKey(nums[i]))
+                nums[count++] = nums[i];
+            map.put(nums[i], 0);
         }
-        return index;
+        return count;
     }
 }
