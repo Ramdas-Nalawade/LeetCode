@@ -7,19 +7,10 @@ class Solution {
         {
             if(prices[i] < prices[i+1])
             {
-                maxProfit += (prices[i+1] - prices[i]);
+                int curr = (prices[i+1] - prices[i]);
+                maxProfit += curr;
             }
         }
         return maxProfit;
     }
 }
-
-        // int maxProfit = 0;
-
-        // for(int i = 1; i < prices.length; i++)
-        // {
-        //     int currentProfit = prices[i] - prices[i-1];
-        //     if(currentProfit > 0)
-        //         maxProfit += currentProfit;
-        // }
-        // return maxProfit;
