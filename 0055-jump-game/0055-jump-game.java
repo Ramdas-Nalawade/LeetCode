@@ -5,7 +5,7 @@ class Solution {
 
         for(int i = nums.length - 2; i >= 0; i--)
         {
-            if(i+nums[i] >= goal)
+            if((i+nums[i]) >= goal)
                 goal = i;
         }
         return goal == 0;
