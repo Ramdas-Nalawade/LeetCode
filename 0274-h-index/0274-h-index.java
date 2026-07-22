@@ -5,9 +5,8 @@ class Solution {
         
         for(int i = 0; i < citations.length; i++)
         {
-            int hIndex = citations.length - i;
-            if(citations[i] >= hIndex)
-                return hIndex;
+            if(citations[i] >= citations.length - i)
+                return citations.length - i;
         }
         return 0;
     }
