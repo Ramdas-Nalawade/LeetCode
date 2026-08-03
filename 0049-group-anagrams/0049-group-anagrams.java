@@ -5,10 +5,10 @@ class Solution {
 
         for(String s: strs)
         {
-            char[] arr = s.toCharArray();
-            Arrays.sort(arr);
+            char[] current = s.toCharArray();
+            Arrays.sort(current);
 
-            String key = new String(arr);
+            String key = new String(current);
 
             map.putIfAbsent(key, new ArrayList<>());
             map.get(key).add(s);
