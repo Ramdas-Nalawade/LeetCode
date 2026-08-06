@@ -13,6 +13,6 @@ class Solution {
         {
             nums[count++] = i;
         }
-        return count;
+        return set.size();
     }
 }
