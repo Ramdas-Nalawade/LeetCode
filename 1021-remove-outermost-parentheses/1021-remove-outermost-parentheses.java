@@ -1,27 +1,24 @@
 class Solution {
     public String removeOuterParentheses(String s) 
     {
-        
-        //when depth becomes 1 → 0 or 0 → 1,
-        //we know we are crossing the outer wall → skip those parentheses.
+        StringBuilder sb = new StringBuilder();
         int depth = 0;
-        StringBuilder result = new StringBuilder();
 
-        for(char ch: s.toCharArray())
+        for(char c: s.toCharArray())
         {
-            if(ch == '(')
+            if(c == '(')
             {
-                if(depth > 0)
-                    result.append(ch);
+                if(depth >= 1)
+                    sb.append(c);
                 depth++;
             }
             else
             {
                 depth--;
-                if(depth > 0)
-                    result.append(ch);
+                if(depth >= 1)
+                    sb.append(c);
             }
-        }    
-        return result.toString(); 
+        }
+        return sb.toString();
     }
 }
