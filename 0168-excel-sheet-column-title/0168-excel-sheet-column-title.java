@@ -7,8 +7,9 @@ class Solution {
         {
             columnNumber--;
             int mod = columnNumber % 26;
-            sb.append((char) (mod+'A'));
-            columnNumber/= 26;
+            char c = (char) (mod+'A');
+            sb.append(c);
+            columnNumber /= 26;
         }
         return sb.reverse().toString();
     }
