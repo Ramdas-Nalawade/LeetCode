@@ -3,10 +3,10 @@ class Solution {
     {
         int index = 0;
 
-        for(int i = 0; i < nums.length; i++)
+        for(int i: nums)
         {
-            if(nums[i] != val)
-                nums[index++] = nums[i];
+            if(i != val)
+                nums[index++] = i;
         }
         return index;
     }
