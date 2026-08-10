@@ -7,6 +7,7 @@ class Solution {
             set.add(i);
 
         int[] arr = set.stream().mapToInt(Integer::intValue).toArray();
+
         return arr.length < 3 ? arr[arr.length - 1] : arr[arr.length - 3];
     }
 }
