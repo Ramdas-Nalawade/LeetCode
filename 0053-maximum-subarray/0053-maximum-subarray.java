@@ -5,9 +5,16 @@ class Solution {
 
         for(int i = 1; i < nums.length; i++)
         {
-            currentSum = Math.max(nums[i], nums[i]+currentSum);
-            maxSum = Math.max(maxSum, currentSum);
+            currentSum = max(nums[i], nums[i]+currentSum);
+            maxSum = max(maxSum, currentSum);
         }
         return maxSum;
+    }
+    private int max(int a, int b)
+    {
+        if(a > b)
+            return a;
+        else
+            return b;
     }
 }
