@@ -5,11 +5,10 @@ class Solution {
 
         for(int i = 0; i < prices.length - 1; i++)
         {
-            if(prices[i] < prices[i+1])
-            {
-                int curr = (prices[i+1] - prices[i]);
-                maxProfit += curr;
-            }
+            int sum = prices[i+1] - prices[i];
+            boolean currentProfit = sum > 0;
+            if(currentProfit)
+                maxProfit += sum;
         }
         return maxProfit;
     }
