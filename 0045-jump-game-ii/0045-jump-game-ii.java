@@ -7,7 +7,7 @@ class Solution {
         {
             farthest = Math.max(farthest, i+nums[i]);
 
-            if(i == current)
+            if(current == i)
             {
                 jumps++;
                 current = farthest;
