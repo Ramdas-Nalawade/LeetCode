@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0134-gas-station](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0134-gas-station/) | Medium |
 | [0135-candy](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0135-candy/) | Hard |
 | [0136-single-number](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0136-single-number) |
+| [0137-single-number-ii](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0137-single-number-ii/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0189-rotate-array) |
@@ -267,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0136-single-number](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0136-single-number) |
+| [0137-single-number-ii](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0137-single-number-ii/) | Medium |
 | [0268-missing-number](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0268-missing-number/) | Easy |
 | [0389-find-the-difference](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0389-find-the-difference/) | Easy |
 | [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
