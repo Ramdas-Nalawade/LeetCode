@@ -1,18 +1,17 @@
 class Solution {
     public int missingNumber(int[] nums) 
-    {
-        Arrays.sort(nums);
-        int num = 0;
-        
-        for(int i = 0; i < nums.length; i++)
+    { 
+        Map<Integer, Integer> map = new LinkedHashMap<>();
+        int curr = 1;
+
+        for(int i: nums)
+            map.put(i, map.getOrDefault(i, 0) + 1);
+
+        for(int i = 1; i <= nums.length; i++)
         {
-            if(nums[i] != num)
-            {
-                num = i;
-                break;
-            }
-            num++;
+            if(!map.containsKey(i))
+                return i;
         }
-        return num;
+        return 0;
     }
 }
