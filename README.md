@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0219-contains-duplicate-ii/) | Easy |
 | [0238-product-of-array-except-self](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0238-product-of-array-except-self/) | Medium |
+| [0268-missing-number](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0268-missing-number/) | Easy |
 | [0274-h-index](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0274-h-index/) | Medium |
 | [0283-move-zeroes](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0283-move-zeroes) |
 | [0349-intersection-of-two-arrays](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0349-intersection-of-two-arrays) |
@@ -66,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0219-contains-duplicate-ii/) | Easy |
 | [0242-valid-anagram](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0268-missing-number/) | Easy |
 | [0290-word-pattern](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0290-word-pattern/) | Easy |
 | [0349-intersection-of-two-arrays](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -172,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0268-missing-number/) | Easy |
 | [0274-h-index](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0274-h-index/) | Medium |
 | [0349-intersection-of-two-arrays](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -190,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0069-sqrtx](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0069-sqrtx) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0209-minimum-size-subarray-sum/) | Medium |
+| [0268-missing-number](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0268-missing-number/) | Easy |
 | [0349-intersection-of-two-arrays](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [2540-minimum-common-value](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/2540-minimum-common-value/) | Easy |
@@ -246,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0168-excel-sheet-column-title](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0168-excel-sheet-column-title) |
 | [0189-rotate-array](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0202-happy-number/) | Easy |
+| [0268-missing-number](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0268-missing-number/) | Easy |
 | [0380-insert-delete-getrandom-o1](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/1295-find-numbers-with-even-number-of-digits/) | Easy |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
@@ -259,6 +264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0136-single-number](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/0136-single-number) |
+| [0268-missing-number](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0268-missing-number/) | Easy |
 | [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
 ## Simulation
