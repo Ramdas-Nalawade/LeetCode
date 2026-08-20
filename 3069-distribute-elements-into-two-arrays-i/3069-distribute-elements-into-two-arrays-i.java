@@ -6,8 +6,6 @@ class Solution {
 
         list1.add(nums[0]);
         list2.add(nums[1]);
-        int ind1 = 0;
-        int ind2 = 1;
 
         for(int i = 2; i < nums.length; i++)
         {
