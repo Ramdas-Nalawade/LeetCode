@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2540-minimum-common-value](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/2540-minimum-common-value/) | Easy |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
+| [3069-distribute-elements-into-two-arrays-i](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/3069-distribute-elements-into-two-arrays-i/) | Easy |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/3471-find-the-largest-almost-missing-integer/) | Easy |
 ## Hash Table
@@ -281,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/Ramdas-Nalawade/LeetCode/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
+| [3069-distribute-elements-into-two-arrays-i](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/3069-distribute-elements-into-two-arrays-i/) | Easy |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
