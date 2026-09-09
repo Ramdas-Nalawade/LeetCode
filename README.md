@@ -266,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
 | [3345-smallest-divisible-digit-product-i](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/3345-smallest-divisible-digit-product-i/) | Easy |
 | [3783-mirror-distance-of-an-integer](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/3783-mirror-distance-of-an-integer/) | Easy |
+| [3871-count-commas-in-range-ii](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/3871-count-commas-in-range-ii/) | Medium |
 ## String Matching
 | Problem Name | Difficulty |
 | ------- | ------- |
