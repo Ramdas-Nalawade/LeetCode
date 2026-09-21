@@ -3,12 +3,12 @@ class Solution {
     {
         StringBuilder sb = new StringBuilder();
 
-        for(char ch: s.toCharArray())
+        for(char c: s.toCharArray())
         {
-            if(ch >= 'A' && ch <= 'Z')
-                sb.append((char) (ch + 32));
+            if(c >= 'A' && c <= 'Z')
+                sb.append((char) (c+32));
             else
-                sb.append(ch);
+                sb.append(c);
         }
         return sb.toString();
     }
