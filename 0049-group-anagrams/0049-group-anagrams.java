@@ -5,10 +5,9 @@ class Solution {
 
         for(String s: strs)
         {
-            char[] current = s.toCharArray();
-            Arrays.sort(current);
-
-            String key = new String(current);
+            char[] temp = s.toCharArray();
+            Arrays.sort(temp);
+            String key = new String(temp);
 
             map.putIfAbsent(key, new ArrayList<>());
             map.get(key).add(s);
