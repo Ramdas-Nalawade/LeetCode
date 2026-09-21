@@ -3,7 +3,7 @@ class Solution {
     {
         if(s.length() != t.length())
             return false;
-        
+
         Map<Character, Integer> map = new HashMap<>();
 
         for(char c: s.toCharArray())
@@ -13,6 +13,7 @@ class Solution {
         {
             if(!map.containsKey(c) || map.get(c) == 0)
                 return false;
+            else
             map.put(c, map.getOrDefault(c, 0) - 1);
         }
         return true;
