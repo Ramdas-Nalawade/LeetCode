@@ -7,10 +7,10 @@ class Solution {
         {
             if(c == '(')
                 stack.push(')');
-            else if(c == '[')
-                stack.push(']');
             else if(c == '{')
                 stack.push('}');
+            else if(c == '[')
+                stack.push(']');
             else if(stack.isEmpty() || stack.pop() != c)
                 return false;
         }
