@@ -7,7 +7,7 @@ class Solution {
         for(String i: arr)
         {
             char[] temp = i.toCharArray();
-            int left = 0, right = i.length() - 1;
+            int left = 0, right = temp.length - 1;
 
             while(left < right)
             {
