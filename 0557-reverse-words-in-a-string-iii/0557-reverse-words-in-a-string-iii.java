@@ -6,8 +6,19 @@ class Solution {
 
         for(String i: arr)
         {
-            StringBuilder sb = new StringBuilder(i);
-            result += sb.reverse()+" ";
+            char[] temp = i.toCharArray();
+            int left = 0, right = i.length() - 1;
+
+            while(left < right)
+            {
+                char c = temp[left];
+                temp[left] = temp[right];
+                temp[right] = c;
+
+                left++;
+                right--;
+            }
+            result += new String(temp)+" ";
         }
         return result.trim();
     }
