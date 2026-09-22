@@ -10,7 +10,8 @@ class Solution {
         {
             if(!map.containsKey(c) || map.get(c) == 0)
                 return false;
-            map.put(c, map.getOrDefault(c, 0) - 1);
+            else
+                map.put(c, map.getOrDefault(c, 0) - 1);
         }
         return true;
     }
