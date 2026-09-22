@@ -342,6 +342,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bracket Sequences
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0020-valid-parentheses](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/0020-valid-parentheses/) | Easy |
 | [1021-remove-outermost-parentheses](https://github.com/Ramdas-Nalawade/LeetCode/tree/main/1021-remove-outermost-parentheses/) | Easy |
 ## Enumeration
 | Problem Name | Difficulty |
